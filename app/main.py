@@ -14,7 +14,11 @@ def home():
 
 @app.route("/music")
 def get_music():
-    return "This is the music page"
+    return render_template("music.html")
+
+@app.route("/playlists")
+def get_playlist():
+    return render_template("playlist.html")
 
 
 @app.route("/audios/<filename>")
