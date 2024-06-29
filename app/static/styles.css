@@ -1,0 +1,32 @@
+
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background-color: #eee;
+}
+
+
+div.container {
+    padding: 40px;
+}
+
+
+div.container > h1 {
+    text-align: center;
+    color: blueviolet;
+    font-weight: bold;
+}
+
+div.container > p {
+    color: gray;
+    font-weight: 400;
+    text-align: center;
+}
